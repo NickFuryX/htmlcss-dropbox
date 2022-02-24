@@ -10,7 +10,7 @@
   clear: both;
 }
 
-body {
+html {
   min-width: 1200px;
 }
 
@@ -33,7 +33,7 @@ header{
 
 
 
-/* Lista */
+/* Nav bar */
 
 .navigation-bar ul {
   list-style: none;
@@ -48,6 +48,7 @@ header{
   
 }
 
+
 .navigation-bar a{
   text-decoration: none;
   font-size: 13px;
@@ -58,13 +59,81 @@ header{
   float: right;
 }
 
+
+
+
+/* jumbo */
+.jumbo{
+  width: 100vw;
+  background-color: #B4D0E7;
+}
+
+h1{
+  text-align: ;
+  font-size: 66px;
+  margin-bottom: 3.5vh;
+}
+
+.jumbo-text{
+  width: 25%;
+}
+
+.jumbo-text p{
+  font-size: 12px;
+  margin-bottom: 3vh;
+}
+
+.jumbo-button{
+  font-size: 14px;
+  margin-bottom: 1vh;
+}
+
+.jumbo-text div{
+  margin-bottom: 3vh;
+}
+
+.jumbo-text a{
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-weight: bolder;
+  
+}
+
+.jumbo-text div{
+  font-size: 12px;
+  
+}
+
+
+
+
+/* Button */
 .btn{
   background-color: #0061FF;
   padding: 4px 12px;
   border: none;
   font-size: 11px;
   color: white;
-  
-
+  cursor: pointer;
 }
+
+.btn:active{
+  background-color: grey;
+}
+
+
+/* Container  */
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+  /* background-color: red; */
+}
+
+.debug{
+  height: 40vh;
+}
+
+
 
