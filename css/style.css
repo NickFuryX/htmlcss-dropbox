@@ -14,11 +14,10 @@ html {
   min-width: 1200px;
 }
 
-
-.navigation-bar{
+.navigation-bar {
   width: 100%;
   padding: 1% 2%;
-  
+
   /* background-color: rebeccapurple; */
 }
 
@@ -28,16 +27,13 @@ html {
   padding-right: 4%;
 }
 
-header{
+header {
   width: 100vw;
   background-color: white;
   position: fixed;
-  top:0;
+  top: 0;
   right: 0;
-  
 }
-
-
 
 /* Nav bar */
 
@@ -51,82 +47,77 @@ header{
 .navigation-bar li {
   display: inline-block;
   padding-right: 4vh;
-  
 }
 
-
-.navigation-bar a{
+.navigation-bar a {
   text-decoration: none;
   font-size: 13px;
   color: black;
 }
 
-.right{
+.right {
   float: right;
 }
 
-
-
-
 /* jumbo */
-.jumbo{
+.jumbo {
   width: 100vw;
-  background-color: #B4D0E7;
+  background-color: #b4d0e7;
   padding-top: 18vh;
-  padding-bottom: -100px
-
+  
 }
 
-h1{
+h1 {
   text-align: ;
   font-size: 66px;
   margin-bottom: 10vh;
 }
 
-.jumbo-text{
+.jumbo-text {
   width: 25%;
   float: left;
+  
+
 }
 
-.jumbo-text p{
+.jumbo-text p {
   font-size: 12px;
   margin-bottom: 3vh;
-  
 }
 
-.jumbo-button{
+.jumbo-button {
   font-size: 14px;
   margin-bottom: 1vh;
 }
 
-.jumbo-text div{
+.jumbo-text div {
   margin-bottom: 3vh;
 }
 
-.jumbo-text a{
+.jumbo-text a {
   text-decoration: none;
   color: black;
   font-size: 30px;
   font-weight: bolder;
-  
 }
 
-.jumbo-text div{
+.jumbo-text div {
   font-size: 12px;
-  
 }
 
-.jumbo img{
-  width: 80%;
+.jumbo-foto{
+  width: 70%;
   float: right;
 }
 
-
+.jumbo img {
+  width: 100%;
+}
 
 
 /* Button */
-.btn{
-  background-color: #0061FF;
+.btn {
+  background-color: #0061ff;
   padding: 4px 12px;
   border: none;
   font-size: 11px;
@@ -134,22 +125,21 @@ h1{
   cursor: pointer;
 }
 
-.btn:active{
+.btn:active {
   background-color: grey;
 }
 
-
 /* Container  */
 
-.container{
+.container {
   width: 80%;
   margin: 0 auto;
   /* background-color: red; */
 }
 
-.debug{
-  height: 40vh;
+.debug {
+  height: 100vh;
 }
-
-
-
+.debugov{
+  overflow: hidden;
+}
