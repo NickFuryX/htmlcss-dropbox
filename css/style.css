@@ -15,6 +15,56 @@ body {
 }
 
 
+header{
+
+}
+.navigation-bar{
+
+  width: 100%;
+  padding: 2% 2%;
+  /* background-color: rebeccapurple; */
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 4%;
+}
 
 
+
+/* Lista */
+
+.navigation-bar ul {
+  list-style: none;
+  /* margin: 0 auto;
+  width: 80%; */
+  display: inline-block;
+}
+
+.navigation-bar li {
+  display: inline-block;
+  padding-right: 4vh;
+  
+}
+
+.navigation-bar a{
+  text-decoration: none;
+  font-size: 13px;
+  color: black;
+}
+
+.right{
+  float: right;
+}
+
+.btn{
+  background-color: #0061FF;
+  padding: 4px 12px;
+  border: none;
+  font-size: 11px;
+  color: white;
+  
+
+}
 
