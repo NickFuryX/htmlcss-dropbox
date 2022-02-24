@@ -12,7 +12,6 @@
 
 body {
   min-width: 1200px;
-  
 }
 
 .navigation-bar {
@@ -52,7 +51,7 @@ header {
 
 .navigation-bar a {
   text-decoration: none;
-  font-size: 13px;
+  font-size: 1.015625vw;
   color: black;
 }
 
@@ -62,34 +61,28 @@ header {
 
 /* jumbo */
 .jumbo {
-  
   background-color: #b4d0e7;
   padding-top: 18vh;
-  
-  
-  
 }
 
 h1 {
   text-align: ;
-  font-size: 66px;
+  font-size: 5.15625vw;
   margin-bottom: 10vh;
 }
 
 .jumbo-text {
   width: 25%;
   float: left;
-  
-
 }
 
 .jumbo-text p {
-  font-size: 12px;
+  font-size: 0.9375vw;
   margin-bottom: 3vh;
 }
 
 .jumbo-button {
-  font-size: 14px;
+  font-size: 1.09375vw;
   margin-bottom: 1vh;
 }
 
@@ -100,33 +93,32 @@ h1 {
 .jumbo-text a {
   text-decoration: none;
   color: black;
-  font-size: 30px;
+  font-size: 2.34375vw;
   font-weight: bolder;
 }
 
 .jumbo-text div {
-  font-size: 12px;
+  font-size: 0.9375vw;
 }
 
-.jumbo-foto{
+.jumbo-foto {
   width: 70%;
   float: right;
-  
 }
 
 .jumbo img {
   width: 100%;
 }
 
-
 /* Button */
 .btn {
   background-color: #0061ff;
   padding: 4px 12px;
   border: none;
-  font-size: 11px;
+  font-size: 0.859375vw;
   color: white;
   cursor: pointer;
+  vertical-align: middle;
 }
 
 .btn:active {
@@ -141,10 +133,17 @@ h1 {
   /* background-color: red; */
 }
 
-.debug {
-  height: 100vh;
+
+.bg-red{
   background-color: red;
 }
-.over{
-  margin-top: -100px;
+.debug {
+  height: 100vh;
+  
 }
+.over {
+  margin-top: -100px;
+  padding: 200px;
+  
+}
+
