@@ -126,7 +126,7 @@ input + span {
   margin-top: 5vh;
   float: left;
   margin-right: 10px;
-
+  
   width: calc(100% / 3 - 30px);
 }
 
@@ -148,14 +148,41 @@ input + span {
 .plan li {
   list-style-type: none;
   font-size: 10px;
-  padding-top: 1.5vh;
+  padding-top: 3vh;
   font-weight: normal;
 }
 
 .user-block {
   text-align: center;
   border: 1px solid black;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
+
+.fa-pen{
+  vertical-align: middle;
+}
+
+.fa-check{
+  color: #0061ff;
+}
+
+.plan a{
+  color: #0061ff;
+}
+
+
+
+
+
+.sec-enterprise{
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 100px;
+  border: 1px solid black;
+
+}
+
 
 
 /* stili delle info */
