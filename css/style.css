@@ -124,9 +124,18 @@ input + span {
 .plan {
   margin-top: 5vh;
   float: left;
-  margin-right: 10px;
+  margin-left: 5.929687500000001vw;
+  width: calc(80% / 3 );
+  
+  
+}
 
-  width: calc(100% / 3 - 30px);
+#plan-professional{
+  margin-left: 0px;
+}
+
+.fl{
+  float: left;
 }
 
 .info-block {
@@ -159,7 +168,9 @@ input + span {
 }
 
 .fa-pen {
-  vertical-align: middle;
+  margin-right: 10px;
+
+  
 }
 
 .fa-check {
@@ -173,7 +184,7 @@ input + span {
 .sec-enterprise {
   width: 60%;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 50px;
   border: 1px solid black;
 }
 .button-enterprise {
@@ -205,6 +216,9 @@ input + span {
 .main-text {
   font-size: 10px;
   padding-bottom: 15px;
+  
+  
+  
 }
 
 .title-list {
@@ -215,7 +229,7 @@ input + span {
   margin-top: 80px;
 }
 
-.container img{
+#partner-section img{
   width: 55%;
   float: left;
 }
@@ -238,6 +252,19 @@ input + span {
   margin-bottom: 10px;
 }
 
+
+#operazioni-business{
+  padding-bottom: 5vh;
+  margin-top: 10vh;
+}
+
+.item-business{
+  width: calc(100% / 3);
+}
+
+.item-business img{
+  width: 100%;
+}
 
 /* Button */
 .btn {
@@ -288,7 +315,9 @@ input + span {
 }
 
 /* debug class */
-
+.bgred{
+  background-color: red;
+}
 .debug {
   height: 100vh;
   background-color: red;
@@ -299,4 +328,12 @@ input + span {
   width: 100%;
   height: 25vh;
   margin-top: -50px;
+}
+
+
+.icon-float-left{
+  float: left;
+  vertical-align: super;
+  margin-right: -0.625vw;
+  margin-top: -0.5vh;
 }
