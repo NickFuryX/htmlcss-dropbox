@@ -111,83 +111,83 @@ h1 {
   width: 100%;
 }
 
-
 /* MAIN */
 
-h2{
- font-size: 2.7vw;
- padding-bottom: 8vh;
+h2 {
+  font-size: 2.7vw;
+  padding-bottom: 8vh;
 }
 
-input + span{
+input + span {
   padding-right: 1vw;
 }
 
-.plan{
+.plan {
   margin-top: 5vh;
   float: left;
   margin-right: 10px;
 
-  width: calc(100% / 3 - 20px);
+  width: calc(100% / 3 - 30px);
 }
 
 .info-block {
   text-align: left;
   border: 1px solid black;
   padding: 0 3vh;
-  
-
 }
-.plan hr{
+.plan hr {
   margin: 5vh 0;
   width: 30%;
   margin-top: 1vh;
 }
 
-.plan ul{
+.plan ul {
   text-align: left;
-  
 }
 
-.plan li{
+.plan li {
   list-style-type: none;
   font-size: 10px;
   padding-top: 1.5vh;
   font-weight: normal;
 }
 
-.user-block{
+.user-block {
   text-align: center;
   border: 1px solid black;
 }
 
 
 /* stili delle info */
-.professional{
+.professional {
   font-size: 20px;
   font-weight: 800;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.price{
+.price {
   font-size: 13px;
   font-weight: 600;
   padding-bottom: 6px;
 }
 
-.under-price{
+.under-price {
   font-size: 10px;
   padding-bottom: 30px;
 }
 
-.main-text{
+.main-text {
   font-size: 10px;
   padding-bottom: 15px;
+
+
+
 }
 
-.title-list{
+.title-list {
   font-weight: 700;
 }
+
 
 
 
@@ -207,9 +207,10 @@ input + span{
   background-color: grey;
 }
 
-.trial-button{
+.trial-button {
   margin-bottom: 15px;
   margin-top: 15px;
+  width: 100%;
 }
 
 /* Container  */
@@ -220,7 +221,7 @@ input + span{
   /* background-color: red; */
 }
 
-.container{
+.container {
   width: 60%;
   margin: 0 auto;
 }
@@ -230,15 +231,11 @@ input + span{
 .debug {
   height: 100vh;
   background-color: red;
-  
 }
 
-.overflow{
+.overflow {
   background-color: white;
   width: 100%;
   height: 25vh;
   margin-top: -50px;
-  
-
 }
-
