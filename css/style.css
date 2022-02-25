@@ -139,8 +139,9 @@ input + span{
 
 }
 .plan hr{
-  margin: 4vh 0;
+  margin: 5vh 0;
   width: 30%;
+  margin-top: 1vh;
 }
 
 .plan ul{
@@ -152,6 +153,7 @@ input + span{
   list-style-type: none;
   font-size: 10px;
   padding-top: 1.5vh;
+  font-weight: normal;
 }
 
 .user-block{
@@ -167,6 +169,26 @@ input + span{
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.price{
+  font-size: 13px;
+  font-weight: 600;
+  padding-bottom: 6px;
+}
+
+.under-price{
+  font-size: 10px;
+  padding-bottom: 30px;
+}
+
+.main-text{
+  font-size: 10px;
+  padding-bottom: 15px;
+}
+
+.title-list{
+  font-weight: 700;
+}
+
 
 
 
@@ -183,6 +205,11 @@ input + span{
 
 .btn:active {
   background-color: grey;
+}
+
+.trial-button{
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 /* Container  */
