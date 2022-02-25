@@ -67,7 +67,6 @@ header {
 }
 
 h1 {
-  text-align: ;
   font-size: 5.15625vw;
   margin-bottom: 10vh;
 }
@@ -126,7 +125,7 @@ input + span {
   margin-top: 5vh;
   float: left;
   margin-right: 10px;
-  
+
   width: calc(100% / 3 - 30px);
 }
 
@@ -134,7 +133,6 @@ input + span {
   text-align: left;
   border: 1px solid black;
   padding: 0 3vh;
-  
 }
 .plan hr {
   margin: 5vh 0;
@@ -160,44 +158,31 @@ input + span {
   padding-bottom: 5px;
 }
 
-.fa-pen{
+.fa-pen {
   vertical-align: middle;
 }
 
-.fa-check{
+.fa-check {
   color: #0061ff;
 }
 
-.plan a{
+.plan a {
   color: #0061ff;
 }
 
-
-
-
-
-.sec-enterprise{
+.sec-enterprise {
   width: 60%;
   margin: 0 auto;
   margin-top: 100px;
   border: 1px solid black;
-
 }
-.fr{
+.button-enterprise {
   float: right;
-  
-
 }
 
-.wh{
+.text-enterprise {
   width: 60%;
-
 }
-
-.p0{
-  padding-top: 0px;
-}
-
 
 /* stili delle info */
 .professional {
@@ -220,17 +205,38 @@ input + span {
 .main-text {
   font-size: 10px;
   padding-bottom: 15px;
-
-
-
 }
 
 .title-list {
   font-weight: 700;
 }
 
+#partner-section{
+  margin-top: 80px;
+}
 
+.container img{
+  width: 55%;
+  float: left;
+}
 
+.enterprise-box{
+  width: 45%;
+  float: left;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.enterprise-box h4{
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.enterprise-box p{
+  font-size: 12px;
+  line-height: 1.5em;
+  margin-bottom: 10px;
+}
 
 
 /* Button */
@@ -252,6 +258,20 @@ input + span {
   margin-bottom: 15px;
   margin-top: 15px;
   width: 100%;
+}
+
+.button-enterprise {
+  float: right;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+#button-partner{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
 }
 
 /* Container  */
