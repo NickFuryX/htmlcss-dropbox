@@ -287,6 +287,19 @@ input + span {
   cursor: pointer;
 }
 
+#discover-title{
+  width: 60%;
+  font-size: 37px;
+  font-weight: 800;
+  margin-bottom: 5vh;
+}
+
+#discover-link{
+  color: #0061ff;
+  font-size: 12px;
+}
+
+
 /* Button */
 .btn {
   background-color: #0061ff;
