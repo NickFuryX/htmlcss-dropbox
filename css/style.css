@@ -259,11 +259,32 @@ input + span {
 }
 
 .item-business{
-  width: calc(100% / 3);
+  width: calc(100% / 3 - 10px);
+  margin-right: 10px;
+  float: left;
+  margin-bottom: 12vh;
 }
 
 .item-business img{
   width: 100%;
+}
+
+.item-title{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 3.5vh;
+
+}
+
+.item-text{
+  font-size: 12px;
+}
+
+.item-text span{
+  text-decoration: underline;
+}
+.item-text span:hover{
+  cursor: pointer;
 }
 
 /* Button */
