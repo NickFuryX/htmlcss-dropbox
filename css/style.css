@@ -34,6 +34,7 @@ header {
   position: fixed;
   top: 0;
   right: 0;
+  z-index: 100;
 }
 
 /* Nav bar */
@@ -298,6 +299,51 @@ input + span {
   color: #0061ff;
   font-size: 12px;
 }
+
+
+.box-partner{
+  width: 25vw;
+  height: 25vw;
+  
+  font-size: 0;
+  
+}
+
+#box-partner-left{
+  float: left;
+
+}
+
+#box-partner-right{
+  float: right;
+  
+}
+
+.box-partner-img{
+  background-color: red;
+  width: calc(100% / 2);
+  height: calc(100% / 2);
+  float: left;
+  position: relative;
+}
+
+
+.box-partner img{
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%,-50%);
+  
+  
+}
+
+.box-partner-text{
+  width: 48vw;
+  float: left;
+  
+}
+
 
 
 /* Button */
