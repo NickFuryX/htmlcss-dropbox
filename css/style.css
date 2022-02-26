@@ -367,6 +367,55 @@ input + span {
   font-size: 12px;
 }
 
+.section-porta h4{
+  color: rgb(105, 9, 105);
+  font-size: 30px;
+  width: 45%;
+  float: left;
+}
+
+
+.section-porta{
+  background-color: #b4d0e7;
+  height: 35vh;
+  position: relative;
+}
+
+.section-porta-modifier{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%,-50%);
+
+}
+
+
+
+/* FOOTER  */
+
+footer{
+  background-color: black;
+  height: 50vh;
+  padding-top: 10vh;
+}
+
+.footer-title-list{
+  color: white;
+  padding-bottom: 3vh;
+}
+
+footer ul{
+  color: white;
+  list-style-type: none;
+  
+}
+
+.footer-list{
+  float: left;
+}
+
+
 
 
 /* Button */
@@ -403,6 +452,18 @@ input + span {
   color: black;
   border: 1px solid black;
 }
+
+
+#button-iniza{
+  background-color: white;
+  color: black;
+  float: right;
+}
+
+
+
+
+
 
 /* Container  */
 
