@@ -301,6 +301,11 @@ input + span {
 }
 
 
+.section-partner{
+  background-color: rgb(230, 227, 221);
+  margin-top: 8vh;
+}
+
 .box-partner{
   width: 25vw;
   height: 25vw;
@@ -341,7 +346,25 @@ input + span {
 .box-partner-text{
   width: 48vw;
   float: left;
+  padding-top: 2vw;
+  padding-left: 2vw;
   
+  
+  
+}
+
+.box-partner-text img{
+  width: 20%;
+}
+
+.box-partner-text hr{
+  margin: 5vh 0;
+  width: 6%;
+  
+}
+
+.box-partner-text p{
+  font-size: 12px;
 }
 
 
