@@ -395,9 +395,10 @@ input + span {
 /* FOOTER  */
 
 footer{
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   height: 50vh;
   padding-top: 10vh;
+
   
   
 }
@@ -446,13 +447,33 @@ footer hr{
   margin-top: 10vh;
   margin-bottom: 5vh;
   width: 7%;
-  
-
 
 }
 
+footer i {
+  filter: grayscale();
+  z-index: 110;
+  background-color: red;
+}
 
+#footer-language{
+  padding-bottom: 5vh;
+}
 
+.bg-black-footer-language{
+  background-color: black;
+}
+
+footer select{
+  background-color: black;
+  border: none;
+  color: gray;
+}
+
+.fa-earth-americas{
+  border-radius: 50%;
+  background-color: gray;
+}
 
 
 /* Button */
