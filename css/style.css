@@ -141,7 +141,10 @@ input + span {
 
 .info-block {
   text-align: left;
-  border: 1px solid black;
+  border-left: 0.5px solid grey ;
+  border-bottom:0.5px solid grey ;
+  border-right:0.5px solid grey ;
+  height: 115.65836298932385vh;
   padding: 0 3vh;
 }
 .plan hr {
@@ -163,15 +166,13 @@ input + span {
 
 .user-block {
   text-align: center;
-  border: 1px solid black;
+  border: 0.5px solid grey;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
 .fa-pen {
   margin-right: 10px;
-
-  
 }
 
 .fa-check {
@@ -186,14 +187,30 @@ input + span {
   width: 60%;
   margin: 0 auto;
   margin-top: 50px;
-  border: 1px solid black;
+  border-right: 0.5px solid grey;
+  border-left: 0.5px solid grey;
+  border-bottom: 0.5px solid grey;
+
 }
+
+#user-block-enterprise{
+  text-align: center;
+  border-top: 0.5px solid grey;
+  border-bottom: 0.5px solid grey;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+
 .button-enterprise {
   float: right;
 }
 
 .text-enterprise {
   width: 60%;
+  padding-left: 2vw;
 }
 
 /* stili delle info */
@@ -204,9 +221,9 @@ input + span {
   padding-bottom: 10px;
 }
 .price {
-  font-size: 13px;
+  font-size: 11px;
   font-weight: 600;
-  padding-bottom: 6px;
+  padding-bottom: 3vh;
 }
 
 .under-price {
@@ -224,6 +241,7 @@ input + span {
 
 .title-list {
   font-weight: 700;
+  font-size: 12px;
 }
 
 #partner-section{
