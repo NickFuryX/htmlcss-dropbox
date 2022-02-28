@@ -50,6 +50,7 @@ header {
 .navigation-bar li {
   display: inline-block;
   padding-right: 4vh;
+  position: relative;
 }
 
 .navigation-bar a {
@@ -654,3 +655,14 @@ button:hover {
 #yellow-box {
   background-color: rgb(251, 212, 47);
 }
+
+
+.navigation-bar li:hover::after  {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #0061ff;
+  bottom: -1px;
+}
+
