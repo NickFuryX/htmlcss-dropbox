@@ -18,6 +18,7 @@ body {
 .navigation-bar {
   width: 100%;
   padding: 1% 2%;
+  border-bottom: 0.5px solid rgb(211, 211, 211);
 
   /* background-color: rebeccapurple; */
 }
@@ -49,12 +50,15 @@ header {
 .navigation-bar li {
   display: inline-block;
   padding-right: 4vh;
+  
 }
 
 .navigation-bar a {
   text-decoration: none;
   font-size: 1.015625vw;
   color: black;
+  
+  
 }
 
 .right {
@@ -164,6 +168,15 @@ input + span {
   font-weight: normal;
 }
 
+.plan-p{
+  
+  font-size: 10px;
+  padding-left: 13px;
+  margin-top: -16px;
+
+  
+}
+
 .user-block {
   text-align: center;
   border: 0.5px solid grey;
@@ -177,6 +190,15 @@ input + span {
 
 .fa-check {
   color: #0061ff;
+  display: inline-block;
+  
+  
+}
+
+.div-check{
+  display: inline-block;
+  padding-top: 10px;
+
 }
 
 .plan a {
@@ -278,10 +300,14 @@ input + span {
 }
 
 .item-business{
-  width: calc(100% / 3 - 10px);
-  margin-right: 10px;
+  width: calc((100% / 3 - 14.9px)  );
+  
   float: left;
   margin-bottom: 12vh;
+}
+
+.item-business-central{
+  margin: 0 20px;
 }
 
 .item-business img{
