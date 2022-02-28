@@ -415,6 +415,43 @@ input + span {
   transform: translate(-50%, -50%);
 }
 
+h5{
+  padding-left: 1vw;
+  margin-bottom: 4vh;
+  font-size: 23px;
+  margin-top: 10vh;
+  
+}
+
+.ask{
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3.5vh 0 3.5vh 1vw;
+  border-top: 0.5px solid grey;
+  border-bottom: 0.5px solid gray;
+  
+}
+
+.ask-symbol{
+ float: right; 
+ padding-right: 10px;
+}
+.box-answer{
+  display: none;
+  font-weight: 100;
+
+}
+
+.last-ask:last-child{
+  margin-bottom: 10vh;
+}
+
+.ask:hover .box-answer{
+  display: block;
+}
+
+
+
 /* FOOTER  */
 
 footer {
@@ -566,6 +603,8 @@ footer select {
   margin-right: -0.625vw;
   margin-top: -0.5vh;
 }
+
+
 
 /* COLORI BOX PARTNER  */
 
